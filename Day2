@@ -1,0 +1,134 @@
+s1={1,2,3,4}
+s2={3,4,5,6}
+res1=s1.union(s2)
+print(res1)
+res2=s1.intersection(s2)
+print(res2)
+res3=s1.difference(s2)
+print(res3)
+res4=s1.difference_update(s2)       #add,clear,copy
+s1
+
+o/p:
+    
+{1, 2, 3, 4, 5, 6}
+{3, 4}
+{1, 2}
+{1, 2}
+
+
+
+x=(1,2,3,4,5,6)
+res=x.index(3)
+print(res)
+res1=x.count(3)
+print(res1)
+
+o/p:
+    
+2
+1
+
+
+
+x=int(input())
+if(x%2==0):            #if(x&1==0)
+    print("even")
+else:
+    print("odd")
+    
+o/p:
+    
+5
+odd
+
+
+
+print("EVEN") if int(input())&1==0 else print("ODD") #truepart if(condition) else(false part)
+
+o/p:
+    
+8
+EVEN
+
+
+
+n=int(input())
+if(n>0 and n<20):
+    if(n&1==0):
+        print('WEIRD NUMBER')
+    else:
+        print('NORMAL NUMBER')
+elif(n>=20 and n<30):
+    print('NORMAL NUMBER')
+elif(n>=30 and n&1==1):
+    print('NORMAL NUMBER')
+elif(n>=30 and n&1==0):
+    print('WEIRD NUMBER')
+    
+o/p:
+    
+50
+WEIRD NUMBER
+
+
+
+#dictionary
+d={}
+d.update({585:"Thanuja"})
+d.update({574:'Pavni'})
+d.update({585:'Thanu'})
+d.get(574)
+
+o/p:
+    
+'Pavni'
+
+
+
+print(list(range(1,4,2)))
+#range(start,stop,step)
+o/p:
+    [1, 3]
+
+    
+    
+    l=[1,2,3,4,5,6,7,8]
+k=4
+temp=False
+for i in range(len(l)):
+    if k==l(i):
+        temp=True
+        break
+if  temp==False:
+    print('element not found')
+---------------------------------------------------------------------------
+
+
+
+for i in range(1,10,2):
+    print(i,end=' ')
+print()
+
+o/p:
+    
+1 3 5 7 9 
+
+
+
+for i in range(10,30,7):
+    print(i+i,end=' ')
+    
+    o/p:
+20 34 48 
+
+a=int(input())
+b=int(input())
+a/b
+
+o/p:
+    
+5
+2
+2.5
+​
